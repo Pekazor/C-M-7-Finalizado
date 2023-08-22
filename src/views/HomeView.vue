@@ -5,7 +5,7 @@
     <v-row>  
       <v-col cols="12" md="4" v-for="(curso, index) in cursos" :key="index">
         <v-card width="400">
-          <v-img height="200px" :src="curso.img"></v-img>
+          <v-img height="150px" :src="curso.img"></v-img>
           <v-card-title class="font-weight-bold ms-1 mb-2 title">
               <p class="ml-3">{{ curso.nombre }}</p>
             </v-card-title>
