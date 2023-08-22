@@ -1,5 +1,7 @@
 <template>
-    <h1> Nuevo Componente</h1>
+    <v-container>
+        <h1>Footer</h1>
+    </v-container>
 </template>
 
 <script>
